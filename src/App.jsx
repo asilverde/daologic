@@ -12,7 +12,7 @@ function App() {
       <Navbar/>
       <div className="info-section">
         <Banner/>
-        <Home/>
+        <Home className="home"/>
         <About/>
         <Services/>
       </div>

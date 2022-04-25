@@ -2,6 +2,7 @@
     height: 100vh;
 
     .info-section {
+        overflow-x:hidden;
         width: 100%;
         height: calc(100vh - 70px);
         position: relative;
@@ -11,12 +12,15 @@
         &::-webkit-scrollbar{
             display: none;
         }
-        scroll-snap-type: y mandatory;
         
         > *{
             width: 100%;
             height: calc(100vh - 70px); 
             scroll-snap-align: start;
+        }
+
+        .home {
+            height: calc(150vh - 70px); 
         }
     }
 
